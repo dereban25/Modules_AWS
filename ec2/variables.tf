@@ -3,7 +3,7 @@ variable "type_instance" {
   default = "t2.micro"
 }
 variable "ami_id" {
-  default = "ami-85b92e92"
+  default = "ami-098f16afa9edf40be"
 }
 variable "key_pair_name" {
   default = "N.Virginia"
