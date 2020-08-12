@@ -22,6 +22,6 @@ variable "name_instance" {
 }
 variable "count_server"{
   type = number
-  default = 2
+  default = 3
 
 }
