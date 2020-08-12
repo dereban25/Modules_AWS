@@ -10,9 +10,7 @@ variable "key_pair_name" {
 }
 variable "subnet_id" {
   type = string
-  default = [
-    "10.20.1.0/24",
-    "10.20.2.0/24"]
+  default = "subnet-01cd5683a17091ae2"
 }
 variable "public_ip_address" {
   type = bool
@@ -21,4 +19,9 @@ variable "public_ip_address" {
 variable "name_instance" {
   type = string
   default = "Created by Terraform modules"
+}
+variable "count_server"{
+  type = number
+  default = 2
+
 }
